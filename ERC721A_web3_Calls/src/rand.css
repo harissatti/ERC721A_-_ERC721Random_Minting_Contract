@@ -1,0 +1,53 @@
+form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    display: block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  form button:hover {
+    background-color: #0062cc;
+  }
+  
+  .marginTop {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    form {
+      padding: 10px;
+    }
+  
+    form input[type="text"] {
+      margin-bottom: 10px;
+    }
+  
+    form button {
+      margin-top: 10px;
+    }
+  }
+  
